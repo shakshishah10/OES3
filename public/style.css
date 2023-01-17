@@ -1,0 +1,31 @@
+
+  .div1 {
+    height: 640px;
+    width: 100%;
+    background-image: linear-gradient(to right, #43cea2  , #185a9d);
+    border:2px outset black;
+  }
+
+  .cg{
+    background-image: linear-gradient(to right, #43cea2  , #185a9d);
+  border:2px outset black;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width:25%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
